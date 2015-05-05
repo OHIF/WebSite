@@ -16,19 +16,28 @@
 <nav class="top-bar" data-topbar role="navigation">
     <ul class="title-area">
         <li class="name">
-            <h1><a href="#"><img src="img/logo.png"></a></h1>
+            <h1><a href="index.php"><img src="img/logo.png"></a></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
     </ul>
 
     <section class="top-bar-section">
         <ul class="right">
-            <li><a href="#">Solution</a></li>
+            <li class="has-dropdown"><a href="solution.php">Solution</a>
+                <ul class="dropdown">
+                    <li><a href="#build">Product overview </a></li>
+                    <li><a href="#js">For Developers </a></li>
+                    <li><a href="#js">For Managers </a></li>
+                    <li><a href="#js">For Radiologists</a></li>
+                </ul></li>
             <li><a href="#">Demo</a></li>
-            <li class="active"><a href="#">About us</a></li>
-            <li><a href="#">Demo</a></li>
+            <li class="has-dropdown active"><a href="#">About us</a>
+                <ul class="dropdown">
+                    <li><a href="#js">News </a></li>
+                    <li><a href="#js">Contact</a></li>
+                </ul></li></li>
+            <li><a href="#">Forum</a></li>
             <li class="has-form"><a href="#" class="button orange-bg">Donate</a></li>
         </ul>
     </section>
 </nav>
-

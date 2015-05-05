@@ -3,12 +3,21 @@
 
 
 
+a {
+  color: white;
+  text-decoration: underline;
+  &:hover {
+    color:  #f6750e;
+    text-decoration: none;
+  }
+}
+
 
 #frontpage {
   background: url('img/movie.gif');
   background-size: cover;
   min-height: 600px;
-  height: 90vh;
+  height: 780px;
   vertical-align: middle;
   h1 {
     color: #fff;
@@ -80,6 +89,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
   z-index: 400;
+  h1, h2, h3 {
+    color: white;
+  }
 
 }
 
@@ -117,5 +129,15 @@
       content: "";
       padding: 0 0.4rem 0 0.8rem;
     }
+  }
+}
+
+
+.news-bar {
+  background: #f6750e;
+  padding: 10px 0;
+  a:hover {
+    color: white;
+
   }
 }

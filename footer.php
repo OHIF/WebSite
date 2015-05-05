@@ -2,7 +2,7 @@
 <footer class="footer">
     <div class="row">
         <div class="small-12 columns">
-            <p class="slogan">For the fututre of digital imaging</p>
+            <p class="slogan">Together building the future of digital imaging</p>
             <p class="links">
                 <a href="#">Home</a>
                 <a href="#">Solution</a>

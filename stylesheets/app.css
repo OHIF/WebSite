@@ -5195,7 +5195,7 @@ kbd {
 
 /* line 18, ../bower_components/foundation/scss/foundation/components/_magellan.scss */
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-  background: #FFFFFF;
+  background: #222;
   min-width: 100%;
   padding: 10px;
   z-index: 50;
@@ -9440,33 +9440,44 @@ th.hide-for-touch {
     display: none !important;
   }
 }
-/* line 7, ../scss/app.scss */
+/* line 6, ../scss/app.scss */
+a {
+  color: white;
+  text-decoration: underline;
+}
+/* line 9, ../scss/app.scss */
+a:hover {
+  color: #f6750e;
+  text-decoration: none;
+}
+
+/* line 16, ../scss/app.scss */
 #frontpage {
   background: url("img/movie.gif");
   background-size: cover;
   min-height: 600px;
-  height: 90vh;
+  height: 780px;
   vertical-align: middle;
 }
-/* line 13, ../scss/app.scss */
+/* line 22, ../scss/app.scss */
 #frontpage h1 {
   color: #fff;
   font-size: 60px;
   opacity: 1 !important;
   margin-top: 100px;
 }
-/* line 19, ../scss/app.scss */
+/* line 28, ../scss/app.scss */
 #frontpage h2 {
   color: darkgrey;
   font-size: 21px;
   margin-bottom: 30px;
 }
 
-/* line 27, ../scss/app.scss */
+/* line 36, ../scss/app.scss */
 #overlay {
   height: 600px;
 }
-/* line 30, ../scss/app.scss */
+/* line 39, ../scss/app.scss */
 #overlay img {
   opacity: 0.3;
   display: block;
@@ -9475,27 +9486,27 @@ th.hide-for-touch {
   heigth: 600px;
 }
 
-/* line 39, ../scss/app.scss */
+/* line 48, ../scss/app.scss */
 .top-bar-section ul li {
   background: none;
 }
 
-/* line 42, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   background: none;
 }
 
-/* line 45, ../scss/app.scss */
+/* line 54, ../scss/app.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background: none;
   color: #f6750e;
 }
-/* line 48, ../scss/app.scss */
+/* line 57, ../scss/app.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   color: #c9c9c9;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .top-bar-section ul li > a.button {
   padding: 10px 20px;
   font-size: 15px;
@@ -9506,48 +9517,52 @@ th.hide-for-touch {
   border: none;
   color: #FFFFFF;
 }
-/* line 63, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
   background: #d1610b;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 .orange-bg {
   background: #f6750e;
 }
-/* line 71, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 .orange-bg:hover, .orange-bg:focus {
   background: #d1610b;
 }
 
-/* line 78, ../scss/app.scss */
+/* line 87, ../scss/app.scss */
 .grey-block {
   background: #3a3a3a;
   padding-top: 50px;
   padding-bottom: 50px;
   z-index: 400;
 }
+/* line 92, ../scss/app.scss */
+.grey-block h1, .grey-block h2, .grey-block h3 {
+  color: white;
+}
 
-/* line 89, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .footer {
   background-color: #000000;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
 }
-/* line 95, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .footer p.slogan {
   color: #8d9093;
   font-size: 1.8rem;
   margin: 0 0 1rem;
 }
-/* line 100, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .footer p.copywrite {
   color: #8f9296;
   font-size: 0.875rem;
   margin: 0;
 }
-/* line 106, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 .footer .links a {
   list-style: none;
   font-weight: bold;
@@ -9555,13 +9570,23 @@ th.hide-for-touch {
   padding: 3rem 0 2rem;
   margin: 0;
 }
-/* line 112, ../scss/app.scss */
+/* line 124, ../scss/app.scss */
 .footer .links a::after {
   content: "•";
   padding: 0 0.4rem 0 0.8rem;
 }
-/* line 116, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .footer .links a:last-child::after {
   content: "";
   padding: 0 0.4rem 0 0.8rem;
+}
+
+/* line 136, ../scss/app.scss */
+.news-bar {
+  background: #f6750e;
+  padding: 10px 0;
+}
+/* line 139, ../scss/app.scss */
+.news-bar a:hover {
+  color: white;
 }

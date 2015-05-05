@@ -20,15 +20,26 @@
 
     </div>
 
-    <section class="grey-block">
+
+    <section class="news-bar">
         <div class="row">
             <div class="medium-12 columns text-center">
-
-                <h3>Our Partners</h3>
-
+                Latest news: <a href="">Visit us at SIIM 2015 Annual Meeting in Washington DC</a>
             </div>
         </div>
     </section>
+
+<!---->
+<!--    <section class="grey-block">-->
+<!--        <div class="row">-->
+<!--            <div class="medium-12 columns text-center">-->
+<!---->
+<!--                <h3>Help our organization</h3>-->
+<!--                <a href="#" class="button large orange-bg radius">Become a sponsor </a>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
 
 
