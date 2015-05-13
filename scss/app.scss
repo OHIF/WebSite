@@ -59,6 +59,14 @@ a {
   }
 
 }
+.top-bar {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  height: 110px;
+  a {
+    text-decoration: none;
+  }
+}
 
 .top-bar-section ul li > a.button {
   padding: 10px 20px;
