@@ -6852,15 +6852,15 @@ meta.foundation-mq-topbar {
 }
 /* line 149, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .fixed.expanded:not(.top-bar) .top-bar-section {
-  margin-top: 8.125rem;
+  margin-top: 3.75rem;
   z-index: 98;
 }
 
 /* line 156, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar {
   background: black;
-  height: 8.125rem;
-  line-height: 8.125rem;
+  height: 3.75rem;
+  line-height: 3.75rem;
   margin-bottom: 0;
   overflow: hidden;
   position: relative;
@@ -6910,13 +6910,13 @@ meta.foundation-mq-topbar {
 /* line 209, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name {
   font-size: 16px;
-  height: 8.125rem;
+  height: 3.75rem;
   margin: 0;
 }
 /* line 214, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1, .top-bar .name h2, .top-bar .name h3, .top-bar .name h4, .top-bar .name p, .top-bar .name span {
   font-size: 1.0625rem;
-  line-height: 8.125rem;
+  line-height: 3.75rem;
   margin: 0;
 }
 /* line 219, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6924,7 +6924,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   display: block;
   font-weight: normal;
-  padding: 0 2.03125rem;
+  padding: 0 0.9375rem;
   width: 75%;
 }
 /* line 230, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -6939,9 +6939,9 @@ meta.foundation-mq-topbar {
   display: block;
   font-size: 0.8125rem;
   font-weight: bold;
-  height: 8.125rem;
-  line-height: 8.125rem;
-  padding: 0 2.03125rem;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  padding: 0 0.9375rem;
   position: relative;
   text-transform: uppercase;
 }
@@ -6955,7 +6955,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   height: 34px;
   line-height: 33px;
-  padding: 0 3.59375rem 0 2.03125rem;
+  padding: 0 2.5rem 0 0.9375rem;
   position: relative;
 }
 /* line 129, ../bower_components/foundation/scss/foundation/components/_global.scss */
@@ -6966,7 +6966,7 @@ meta.foundation-mq-topbar {
   position: absolute;
   margin-top: -8px;
   top: 50%;
-  right: 2.03125rem;
+  right: 0.9375rem;
   box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
   width: 16px;
 }
@@ -7038,16 +7038,16 @@ meta.foundation-mq-topbar {
   font-family: "Sanchez", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1.0625rem;
   font-weight: normal;
-  padding-left: 2.03125rem;
-  padding: 12px 0 12px 2.03125rem;
+  padding-left: 0.9375rem;
+  padding: 12px 0 12px 0.9375rem;
   text-transform: none;
   width: 100%;
 }
 /* line 345, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
   font-size: 1.0625rem;
-  padding-left: 2.03125rem;
-  padding-right: 2.03125rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
@@ -7133,8 +7133,8 @@ meta.foundation-mq-topbar {
 /* line 359, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button {
   font-size: 1.0625rem;
-  padding-left: 2.03125rem;
-  padding-right: 2.03125rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   background-color: #008CBA;
   border-color: #007095;
   color: #FFFFFF;
@@ -7235,7 +7235,7 @@ meta.foundation-mq-topbar {
 }
 /* line 395, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
-  padding: 2.03125rem;
+  padding: 0.9375rem;
 }
 /* line 400, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
@@ -7250,7 +7250,7 @@ meta.foundation-mq-topbar {
   width: 0;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
-  margin-right: 2.03125rem;
+  margin-right: 0.9375rem;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -7297,7 +7297,7 @@ meta.foundation-mq-topbar {
 /* line 444, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 2.03125rem;
+  padding: 8px 0.9375rem;
 }
 /* line 447, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
@@ -7320,7 +7320,7 @@ meta.foundation-mq-topbar {
 }
 /* line 466, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 2.03125rem;
+  padding: 8px 0.9375rem;
 }
 /* line 470, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li .button,
@@ -7333,7 +7333,7 @@ meta.foundation-mq-topbar {
   font-size: 0.625rem;
   font-weight: bold;
   margin-bottom: 0;
-  padding: 8px 2.03125rem 2px;
+  padding: 8px 0.9375rem 2px;
   text-transform: uppercase;
 }
 
@@ -7382,7 +7382,7 @@ meta.foundation-mq-topbar {
     font-size: 0.875rem;
     height: 1.75rem;
     position: relative;
-    top: 3.1875rem;
+    top: 1rem;
   }
   /* line 517, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar.expanded {
@@ -7424,8 +7424,8 @@ meta.foundation-mq-topbar {
   /* line 555, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: black;
-    line-height: 8.125rem;
-    padding: 0 2.03125rem;
+    line-height: 3.75rem;
+    padding: 0 0.9375rem;
   }
   /* line 559, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -7436,8 +7436,8 @@ meta.foundation-mq-topbar {
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: #008CBA;
     color: #FFFFFF;
-    line-height: 8.125rem;
-    padding: 0 2.03125rem;
+    line-height: 3.75rem;
+    padding: 0 0.9375rem;
   }
   /* line 574, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button):hover {
@@ -7446,7 +7446,7 @@ meta.foundation-mq-topbar {
   }
   /* line 584, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
-    padding-right: 3.28125rem !important;
+    padding-right: 2.1875rem !important;
   }
   /* line 586, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a:after {
@@ -7458,7 +7458,7 @@ meta.foundation-mq-topbar {
     border-color: rgba(255, 255, 255, 0.4) transparent transparent transparent;
     border-top-style: solid;
     margin-top: -2.5px;
-    top: 4.0625rem;
+    top: 1.875rem;
   }
   /* line 594, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown.moved {
@@ -7511,8 +7511,8 @@ meta.foundation-mq-topbar {
   .top-bar-section .dropdown li a {
     background: #333333;
     color: #FFFFFF;
-    line-height: 8.125rem;
-    padding: 12px 2.03125rem;
+    line-height: 3.75rem;
+    padding: 12px 0.9375rem;
     white-space: nowrap;
   }
   /* line 641, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7543,14 +7543,14 @@ meta.foundation-mq-topbar {
     border-bottom: none;
     border-top: none;
     clear: none;
-    height: 8.125rem;
+    height: 3.75rem;
     width: 0;
   }
   /* line 678, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
     background: black;
-    height: 8.125rem;
-    padding: 0 2.03125rem;
+    height: 3.75rem;
+    padding: 0 0.9375rem;
   }
   /* line 686, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .right li .dropdown {
@@ -9456,28 +9456,53 @@ a:hover {
   background: url("img/movie.gif");
   background-size: cover;
   min-height: 600px;
-  height: 780px;
+  height: 795px;
   vertical-align: middle;
+  padding-left: 30px;
 }
-/* line 22, ../scss/app.scss */
+/* line 23, ../scss/app.scss */
 #frontpage h1 {
   color: #fff;
   font-size: 60px;
   opacity: 1 !important;
   margin-top: 100px;
 }
-/* line 28, ../scss/app.scss */
+/* line 29, ../scss/app.scss */
 #frontpage h2 {
   color: darkgrey;
   font-size: 21px;
   margin-bottom: 30px;
 }
-
+/* line 34, ../scss/app.scss */
+#frontpage .inline-list {
+  margin-left: 0;
+}
 /* line 36, ../scss/app.scss */
+#frontpage .inline-list li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 40, ../scss/app.scss */
+#frontpage .inline-list li {
+  padding-right: 30px;
+}
+/* line 43, ../scss/app.scss */
+#frontpage .inline-list a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #cccccc;
+  color: #f6750e;
+}
+/* line 49, ../scss/app.scss */
+#frontpage .inline-list a:hover {
+  text-decoration: underline;
+}
+
+/* line 56, ../scss/app.scss */
 #overlay {
   height: 600px;
 }
-/* line 39, ../scss/app.scss */
+/* line 58, ../scss/app.scss */
 #overlay img {
   opacity: 0.3;
   display: block;
@@ -9486,27 +9511,39 @@ a:hover {
   heigth: 600px;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
+header {
+  padding: 35px 13px;
+  z-index: 5000;
+  display: block;
+  position: relative;
+}
+
+/* line 76, ../scss/app.scss */
 .top-bar-section ul li {
   background: none;
 }
+/* line 78, ../scss/app.scss */
+.top-bar-section ul li a {
+  text-decoration: none;
+}
 
-/* line 51, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   background: none;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 85, ../scss/app.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   background: none;
   color: #f6750e;
 }
-/* line 57, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   color: #c9c9c9;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .top-bar-section ul li > a.button {
   padding: 10px 20px;
   font-size: 15px;
@@ -9517,76 +9554,85 @@ a:hover {
   border: none;
   color: #FFFFFF;
 }
-/* line 72, ../scss/app.scss */
+/* line 103, ../scss/app.scss */
 .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
   background: #d1610b;
 }
 
-/* line 78, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 .orange-bg {
   background: #f6750e;
 }
-/* line 80, ../scss/app.scss */
+/* line 111, ../scss/app.scss */
 .orange-bg:hover, .orange-bg:focus {
   background: #d1610b;
 }
 
-/* line 87, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 .grey-block {
   background: #3a3a3a;
   padding-top: 50px;
   padding-bottom: 50px;
   z-index: 400;
 }
-/* line 92, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
 .grey-block h1, .grey-block h2, .grey-block h3 {
   color: white;
 }
 
-/* line 101, ../scss/app.scss */
+/* line 131, ../scss/app.scss */
 .footer {
   background-color: #000000;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
+  font-weight: 300;
 }
-/* line 107, ../scss/app.scss */
+/* line 137, ../scss/app.scss */
+.footer a {
+  text-decoration: none;
+  color: #dddddd;
+}
+/* line 142, ../scss/app.scss */
 .footer p.slogan {
-  color: #8d9093;
-  font-size: 1.8rem;
-  margin: 0 0 1rem;
+  color: #696c6f;
+  font-size: 1.2rem;
+  margin: 0 0 3rem;
+  font-style: italic;
+  font-weight: 300;
 }
-/* line 112, ../scss/app.scss */
+/* line 149, ../scss/app.scss */
 .footer p.copywrite {
   color: #8f9296;
   font-size: 0.875rem;
-  margin: 0;
+  margin: 50px 0 0 0;
 }
-/* line 118, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
 .footer .links a {
   list-style: none;
   font-weight: bold;
-  color: #ffffff;
+  color: #bababa;
+  text-decoration: none;
   padding: 3rem 0 2rem;
   margin: 0;
 }
-/* line 124, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 .footer .links a::after {
   content: "•";
   padding: 0 0.4rem 0 0.8rem;
 }
-/* line 128, ../scss/app.scss */
+/* line 166, ../scss/app.scss */
 .footer .links a:last-child::after {
   content: "";
   padding: 0 0.4rem 0 0.8rem;
 }
 
-/* line 136, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 .news-bar {
   background: #f6750e;
   padding: 10px 0;
 }
-/* line 139, ../scss/app.scss */
+/* line 177, ../scss/app.scss */
 .news-bar a:hover {
   color: white;
 }

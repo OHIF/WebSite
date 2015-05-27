@@ -17,8 +17,9 @@ a {
   background: url('img/movie.gif');
   background-size: cover;
   min-height: 600px;
-  height: 780px;
+  height: 795px;
   vertical-align: middle;
+  padding-left: 30px;
   h1 {
     color: #fff;
     font-size: 60px;
@@ -30,12 +31,30 @@ a {
     font-size: 21px;
     margin-bottom: 30px;
   }
+  .inline-list {
+    margin-left: 0;
+    li:first-child {
+      margin-left: 0;
+      padding-left: 0;
+    }
+    li {
+      padding-right: 30px;
+    }
+    a {
+
+      font-size: 17px;
+      text-decoration: none;
+      color: #cccccc;
+      color: #f6750e;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
-//#overlay img { display: none; }
 
 #overlay {
   height: 600px;
-  //position: relative;
   img {
   opacity: 0.3;
   display: block;
@@ -45,8 +64,20 @@ a {
   }
 }
 
+
+
+header {
+  padding: 35px 13px;
+  z-index: 5000;
+  display: block;
+  position: relative;
+}
+
 .top-bar-section ul li {
   background: none;
+  a {
+    text-decoration: none;
+  }
 }
 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
   background: none;
@@ -97,28 +128,35 @@ a {
 
 
 
-
 .footer {
   background-color: #000000;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
+  font-weight: 300;
+  a {
+    text-decoration: none;
+    color: #dddddd;
+  }
   p {
     &.slogan {
-      color: #8d9093;
-      font-size: 1.8rem;
-      margin: 0 0 1rem;
+      color: #696c6f;
+      font-size: 1.2rem;
+      margin: 0 0 3rem;
+      font-style: italic;
+      font-weight: 300;
     }
     &.copywrite {
       color: #8f9296;
       font-size: 0.875rem;
-      margin: 0;
+      margin: 50px 0 0 0;
     }
   }
   .links a {
     list-style: none;
     font-weight: bold;
-    color: #ffffff;
+    color: #bababa;
+    text-decoration: none;
     padding: 3rem 0 2rem;
     margin: 0;
     &::after {

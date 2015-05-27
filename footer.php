@@ -12,7 +12,8 @@
                 <a href="#">For Healthcare Executives</a>
                 <a href="#">Contact</a>
             </p>
-            <p class="copywrite">© 2015 OHIF</p>
+            <p class="copywrite">© 2015 OHIF<br>Website made by <a href="http://www.sixpoints.pl" target="blank">sixpoints</a> </p>
+
         </div>
     </div>
 </footer>

@@ -7,7 +7,14 @@
                 <h1>Opensource solution<br>
                     for modern health care</h1>
                 <h2>Free HTML5 DICOM web viewer, Free PACS server</h2>
-                <a href="#" class="button large orange-bg radius">Try demo now</a>
+                <a href="http://chafey.github.io/cornerstoneDemo/" target="_blank" class="button large orange-bg radius">Try demo now</a>
+
+                <ul class="inline-list">
+<!--                    <li><a href="#">Product overview</a></li>-->
+                    <li><a href="for-developers.php">For Developers</a></li>
+                    <li><a href="for-managers.php">For Managers </a></li>
+                    <li><a href="for-radiologists.php">For Radiologists</a></li>
+                </ul>
             </div>
 
             <img src="img/movie.gif" alt="">
