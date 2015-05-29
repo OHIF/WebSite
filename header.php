@@ -28,6 +28,7 @@
                     <li><a href="for-developers.php">For Developers </a></li>
                     <li><a href="for-managers.php">For Managers </a></li>
                     <li><a href="for-radiologists.php">For Radiologists</a></li>
+                    <li><a href="for-imaging-pro.php">For Imaging Professional</a></li>
                 </ul></li>
             <li><a href="http://chafey.github.io/cornerstoneDemo/" target="_blank">Demo</a></li>
             <li class="has-dropdown <?php if (@$p == 'about') { echo 'active'; } ?>"><a href="about-us.php">About us</a>

@@ -14,6 +14,7 @@
                     <li><a href="for-developers.php">For Developers</a></li>
                     <li><a href="for-managers.php">For Managers </a></li>
                     <li><a href="for-radiologists.php">For Radiologists</a></li>
+                    <li><a href="for-imaging-pro.php">For Imaging Professional</a></li>
                 </ul>
             </div>
 
@@ -36,17 +37,7 @@
         </div>
     </section>
 
-<!---->
-<!--    <section class="grey-block">-->
-<!--        <div class="row">-->
-<!--            <div class="medium-12 columns text-center">-->
-<!---->
-<!--                <h3>Help our organization</h3>-->
-<!--                <a href="#" class="button large orange-bg radius">Become a sponsor </a>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
+
 
 
 
