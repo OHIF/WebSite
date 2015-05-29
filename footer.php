@@ -4,13 +4,14 @@
         <div class="small-12 columns">
             <p class="slogan">Together building the future of digital imaging</p>
             <p class="links">
-                <a href="#">Home</a>
-                <a href="#">Solution</a>
-                <a href="#">Demo</a>
-                <a href="#">For Developers</a>
-                <a href="#">For Radiologist</a>
-                <a href="#">For Healthcare Executives</a>
-                <a href="#">Contact</a>
+                <a href="index.php">Home</a>
+
+                <a href="http://chafey.github.io/cornerstoneDemo/" target="_blank">Demo</a>
+                <a href="for-developers.php">For Developers</a>
+                <a href="for-radiologists.php">For Radiologist</a>
+                <a href="for-managers.php">For Healthcare Executives</a>
+                <a href="for-managers.php">For Imaging Professional</a>
+                <a href="contact.php">Contact</a>
             </p>
             <p class="copywrite">© 2015 OHIF<br>Website made by <a href="http://www.sixpoints.pl" target="blank">sixpoints</a> </p>
 
