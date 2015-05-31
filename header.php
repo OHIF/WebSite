@@ -37,7 +37,7 @@
                     <li><a href="contact.php">Contact</a></li>
                 </ul></li></li>
             <li><a href="/forum">Forum</a></li>
-            <li class="has-form"><a href="/donate" class="button orange-bg">Donate</a></li>
+            <li class="has-form"><a href="contact.php" class="button orange-bg">Donate</a></li>
         </ul>
     </section>
 </nav>

@@ -25,9 +25,9 @@
 
                 <p>For radiologists, apart from being a best-of-breed image interpretation tool, the OHIF components can be used as a modular platform to test new interaction paradigms for image review, annotation and analysis, drawing from well established and tested best practices in web interaction that come naturally to modern users.</p>
 
-                <a href="#" class="button large orange-bg radius">Spread the word</a>
+                <a href="contact.php" class="button large orange-bg radius">Spread the word</a>
 
-                &nbsp;&nbsp;<a href="#">Request specific feature</a>
+                &nbsp;&nbsp;<a href="contact.php">Request specific feature</a>
 
             </div>
         </div>

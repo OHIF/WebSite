@@ -25,7 +25,7 @@
                 </p>
 
 
-                <a href="#" class="button large orange-bg radius">Visit our GitHub page</a>
+                <a href="https://github.com/OHIF" target="_blank" class="button large orange-bg radius">Visit our GitHub page</a>
 
                 &nbsp;&nbsp;<a href="/forum">Visit forum</a> &nbsp;&nbsp;<a href="contact.php">Contact us</a>
 
