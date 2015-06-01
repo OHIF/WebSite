@@ -1,0 +1,45 @@
+/*
+Error: Invalid US-ASCII character "\xE2"
+        on line 126 of app.scss
+
+121:     font-weight: bold;
+122:     color: #ffffff;
+123:     padding: 3rem 0 2rem;
+124:     margin: 0;
+125:     &::after {
+126:       content: "•";
+127:       padding: 0 0.4rem 0 0.8rem;
+128:     }
+129:     &:last-child::after {
+130:       content: "";
+131:       padding: 0 0.4rem 0 0.8rem;
+
+Backtrace:
+app.scss:126
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/util.rb:1320:in `block in find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/util.rb:1319:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/util.rb:1319:in `each_with_index'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/util.rb:1319:in `find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/util.rb:896:in `check_sass_encoding'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:423:in `check_encoding!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:379:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:350:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.5/bin/scss:13:in `<top (required)>'
+/usr/bin/scss:23:in `load'
+/usr/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE2\"\A         on line 126 of app.scss\A \A 121:     font-weight: bold;\A 122:     color: #ffffff;\A 123:     padding: 3rem 0 2rem;\A 124:     margin: 0;\A 125:     &::after {\A 126:       content: \"•\";\A 127:       padding: 0 0.4rem 0 0.8rem;\A 128:     }\A 129:     &:last-child::after {\A 130:       content: \"\";\A 131:       padding: 0 0.4rem 0 0.8rem;"; }
