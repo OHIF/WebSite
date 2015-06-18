@@ -37,7 +37,14 @@
                     <li><a href="contact.php">Contact</a></li>
                 </ul></li></li>
             <li><a href="/forum">Forum</a></li>
-            <li class="has-form"><a href="contact.php" class="button orange-bg">Donate</a></li>
+            <li class="has-form">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="NQXLPHWKCY4CC">
+                    <button type="submit" class="button orange-bg radius">Donate</button>
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </li>
         </ul>
     </section>
 </nav>
