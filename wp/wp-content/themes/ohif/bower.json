@@ -1,0 +1,21 @@
+{
+  "name": "OHIF website",
+  "version": "0.1",
+  "authors": [
+    "www.sixpoints.pl"
+  ],
+  "main": "index.php",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2",
+    "font-awesome": "~4.3.0"
+  }
+}

@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+/** in tinyMce Editor **/
+.wpcufpned {
+	border: 1px dashed #888;
+	background: #f2f8ff url('../img/wpfpn-tmce-placeholder.png') no-repeat scroll center center;
+	width: 99%;
+	height: 200px;
+}

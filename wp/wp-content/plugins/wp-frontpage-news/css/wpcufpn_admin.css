@@ -1,0 +1,297 @@
+/** Style sheet for WP admin back-office pages of WP Frontpage News plugin **/
+@CHARSET "UTF-8";
+
+/** global post type edit screen with tabs and blocks **/
+/*
+div#wpcufpnnavtabsbox {
+	margin-top:-20px;
+}
+*/
+
+#icon-edit.icon32.icon32-posts-wpcuwpfp-news-widget {
+	background:url('../img/wpcufpn-edit-icon.png') no-repeat;
+}
+
+div.metabox_tabbed_content {
+	overflow: hidden;
+}
+div.wpcu-inner-admin-col {
+	display: inline-block;
+	float: left;
+	min-width: 40%;
+	margin-right: 1%;
+}
+div.wpcu-inner-admin-block.with-border {
+	border: 1px dotted #a7a7a7;
+	margin-top: 15px;
+	padding: 10px;
+	overflow: visible;
+}
+div.wpcu-inner-admin-block.with-border h4,
+div.wpcu-inner-admin-block.with-border h5 {
+	font-size: 10px;
+	text-transform:uppercase;
+	line-height: 12px;
+	margin: -17px 0 0 8px;
+	padding: 0 10px;
+	background: #fff;
+	display: table;
+	color:#0074a2;
+}
+#wpcufpn_config_zone h4 {
+	margin: -4px 0 0 8px;
+	font-style: italic
+}
+
+/** horizontal li **/
+ul.horizontal {
+	padding:0;
+	margin:0 0 10px 0;
+	list-style-type:none;
+}
+ul.horizontal li {
+	margin-left:20px;
+	float:left; /* for IE */
+}
+
+/** form fields **/
+label.post_radio {
+	margin-left:1px;
+}
+label.post_cb {
+	margin-left:3px;
+}
+/** fixed-width field labels **/
+label.coltab {
+	min-width: 200px;
+	display: inline-block;
+}
+input.short-text.units {
+	width: 2em;
+}
+
+/** theme preview box **/
+div.wpcufpn-theme-preview {
+	width: 480px;
+	height: 334px;
+	background: #ddd;
+	margin: auto;
+}
+
+/** widget drag-and-drop config box **/
+#wpcufpn_config_zone {
+	min-height: 260px;
+	overflow: hidden;
+}
+div.arrow_col_wrapper {
+	overflow: hidden;
+	display: inline-block;
+	border: 1px dotted #a7a7a7;
+}
+ul.arrow_col {
+	display: inline-block;
+	float: left;
+	width: 120px;
+	height: 100%;
+	min-height: 275px;
+	overflow: hidden;
+}
+ul.arrow_col li {
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+ 	background:#e0e0e0; 
+ 	text-align:center; 
+ 	font-size:11px;
+ 	text-transform:uppercase;
+ 	padding: 1px 3px;
+	margin: 3px 0;
+	width: 106px;
+	cursor:pointer;
+}
+ul.arrow_col li:hover{
+ 	display: inline-block;
+ 	border: 1px solid #4097b9;
+ 	background:#4097b9; 
+ 	color:#fff;
+ 	text-align:center; 
+ 	font-size:11px;
+ 	text-transform:uppercase;
+ 	padding: 1px 3px;
+ 	margin: 3px 0;
+ 	width: 106px;
+ 	cursor:pointer;
+}
+
+.dragover {
+	background-color: #FFC;
+}
+
+div.drop_zone_col {
+	display: inline-block;
+	float: right;
+	max-width: 480px;
+	min-width: 300px;
+}
+.drop_zone_col ul {
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	margin-top: 0px;
+	min-height: 70px;
+}
+.drop_zone_col ul li {
+	width: 106px;
+	border: 1px solid #e0e0e0;
+ 	background:#e0e0e0;
+ 	text-transform:uppercase;
+ 	font-size:11px;
+ 	text-align:center;
+	padding: 1px 3px;
+	margin: 3px 0;
+}
+.drop_zone_col ul li:hover{
+ 	border: 1px solid #4097b9;
+ 	background:#4097b9; 
+ 	color:#fff;
+ 	cursor:pointer;
+}
+#wpcufpn_config_zone div.wpcu-inner-admin-block.with-border {
+	display: inline-block;
+	min-height: 72px;
+	margin: 4px 0;
+	padding: 0 5px;
+}
+#wpcufpn_config_zone div.wpcu-inner-admin-block.with-border h5 {
+	margin: -8px 0 0 2px;
+}
+#wpcufpn_config_zone div.wpcu-inner-admin-block.with-border.top {
+	width: 290px;
+	float: left;
+}
+#wpcufpn_config_zone div.wpcu-inner-admin-block.with-border.left {
+	width: 120px;
+	clear: left;
+	float: left;
+}
+#wpcufpn_config_zone div.wpcu-inner-admin-block.with-border.right {
+	width: 120px;
+	clear: right;
+	float: right;	
+}
+#wpcufpn_config_zone div.wpcu-inner-admin-block.with-border.bottom {
+	width: 290px;
+	float: left;
+	clear: both;
+}
+
+/*
+#trash_cont {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	border:1px dotted #333;
+}
+#trashbin {
+	width:100%;
+	height:100%;
+}
+*/
+
+/** interface: UI radio buttons **/
+.radioset .ui-state-active { 
+ 	background: #0074a2;
+ 	border-color:#0074a2;
+ 	color:#fff;
+ 	margin-left:1px;
+}
+
+/** combined width & height fields **/
+.width_height_settings {
+ 	background: #fff;
+ 	border: 1px solid #fff;
+	padding: 3px 6px 3px 0;
+}
+.width_height_settings input {
+	padding: 2px;
+	margin: 0 4px;
+	width: 4em;
+}
+
+#margin_sliders .slider {
+	display: inline-block;
+	width: 50%;
+}
+#margin_sliders input {
+	width: 2em;
+}
+
+.default_preview {
+	width: 50px;
+	height: 50px;
+	border: none;
+	margin: 0 0 0 15px;
+	position: absolute;
+	bottom: 10px;
+}
+
+/** tinyMce button + widget selector **/
+#wpcufpn_widgetlist {
+	min-width:150px;
+	max-width:250px;
+	overflow: hidden;
+	border: 3px solid #eee;
+	background: #fff;
+	z-index: 100;
+}
+
+#wpcufpn_widgetlist select {
+	min-height:70px;
+	min-width:250px;
+	padding: 5px;
+	margin-bottom: -5px;
+}
+
+em.grayed {
+	color: #999;	
+}
+
+div.wpcu.yellowed {
+	background-color: #fffbcc;
+	border-color: #e6db55;
+	color: #555;
+	line-height: 1.2em;
+	padding: 5px 10px;
+	text-align: center;
+	margin: 30px 0 0 0;
+	border-width: 1px;
+	border-style: dashed;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 0.8em;
+}
+
+div.wpcu.halfed {
+	width: 40%;
+}
+
+p.wpcu.pro_reminder {
+	font-size: 0.8em;
+	color: #555;
+	margin: 30px 0 0 0;
+}
+
+.about_content a{
+ 	padding:2px 5px;
+ 	font-weight:bold;
+ 	color:#0074a2;
+ 	display:inline-block;
+ 	text-decoration:none;
+}
+
+#tab-4 ul, #tab-4 li{ 
+	list-style-type:none;
+}
+
+span.radioset label{
+	margin-right:20px;
+}

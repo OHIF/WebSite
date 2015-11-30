@@ -1,0 +1,190 @@
+/** Style sheet for front-end of WP Frontpage News plugin **/
+@CHARSET "UTF-8";
+
+.wpcufpn_outside {
+	text-align: left;
+	overflow: hidden;
+}
+.wpcufpn_container {
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	position:relative;
+	height: 250px;
+	/*background: #fff;*/
+}
+.wpcufpn_container ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	overflow: hidden;
+}
+.wpcufpn_container li {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	text-align: left;
+	/*
+	padding: 0 0 3px 1px;
+	box-sizing: border-box;
+	*/
+}
+.wpcufpn_container table,
+.wpcufpn_container table tr,
+.wpcufpn_container table tr td {
+	border: none;
+	border-width: 0;
+	vertical-align: top;
+	margin: 0;
+}
+
+/*
+.wpcufpn_container table {
+	width: 100%;
+	/*overflow: hidden;*/
+	/*table-layout: fixed;*/
+}
+*/
+
+.wpcufpn_container a,
+.wpcufpn_container a:focus,
+.wpcufpn_container a:active,
+.wpcufpn_container a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+.wpcu_block_title {
+	text-align: left;
+	font-weight: bold;
+	font-size: 2.2em;
+	line-height: 2.2em;
+	color: #666;
+}
+
+.wpcufpn_container .title {
+	color: #333;
+	font-weight: bold;
+	font-size: 1.15em;
+	text-align: left;
+	line-height: 1.15em;
+	max-width: 80%;
+	overflow: hidden;
+}
+
+.wpcufpn_container .title span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+.wpcufpn_container .thumbnail {
+	display: block;
+	overflow: hidden;
+}
+.wpcufpn_container .text,
+.wpcufpn_container .date {
+	overflow: hidden;
+	display: block;
+	text-align: left;
+	line-height: 1.1;
+	font-weight: normal;
+	text-overflow: ellipsis;
+}
+.wpcufpn_container .date {
+	color:#666;
+}
+.wpcufpn_container .text span {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+.wpcufpn_container .read-more {
+	display: block;
+	color: #888;
+	font-size: 13px;
+	text-align: right;
+}
+span.img_cropper {
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+span.img_cropper img {
+	vertical-align:middle;
+	display:block;
+}
+
+span.line_limit {
+	overflow: hidden;
+	display: inline-block;
+	max-width: 100%;
+}
+.wpcufpn_container .title .line_limit {
+
+}
+
+.wpcu-front-box {
+	/*margin: 3px;*/
+}
+.wpcu-front-box.left {
+	margin: 0;
+	padding: 0;
+}
+.wpcu-front-box.right {
+	margin: 0;
+	padding: 0;
+}
+
+.wpcu-front-box.left {
+	/*display: block;*/
+}
+.wpcu-front-box.right {
+/*	display: inline-block; */
+/*	min-width: 25%;*/
+/*	max-width: 75%;	/*?*/
+/*	float: right; */
+}
+.wpcu-front-box.top,
+.wpcu-front-box.bottom {
+	display: block;
+	clear: left;
+}
+
+div.wpcufpn_nav {
+	margin: 3px auto;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.entry-content div.wpcufpn_nav a,
+div.wpcufpn_nav a {
+	text-decoration: none;	
+}
+
+div.wpcufpn_nav .pagi_p.squarebullet {
+    /* Hide the text. */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+	
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	background: #ccc;
+}
+
+div.wpcufpn_nav .pagi_p.squarebullet.active {
+	background: #999;
+}
+
+/** override WP default theme **/
+.widget .wpcufpn_outside img {
+	max-width: none;	
+}
+
+.entry-content .wpcufpn_outside img {
+	max-width: none;
+}
