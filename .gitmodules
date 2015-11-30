@@ -1,0 +1,3 @@
+[submodule "cornerstoneDemo"]
+	path = cornerstoneDemo
+	url = https://github.com/weiwei-ohif/cornerstoneDemo.git
