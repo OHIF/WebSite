@@ -15,7 +15,7 @@
             <div class="aamedium-12 aacolumns" style="position: absolute; z-index: 200;">
                 <h1>Opensource solution<br>
                     for modern health care</h1>
-                <h2>Free HTML5 DICOM web viewer, Free PACS server</h2>
+                <h2>Free HTML5 DICOM web viewer, Free image viewer software and server</h2>
                 <a href="http://viewer.ohif.org" target="_blank" class="button large orange-bg radius">Try demo now</a>
 
                 <ul class="inline-list">
